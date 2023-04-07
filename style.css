@@ -1,0 +1,88 @@
+body
+{
+    display: flex;
+    background-image:url('img.png');
+}
+.fb_span,.insta_span,.twit_span{
+    width: 50px;
+    display: none;
+    justify-content: center;
+
+}
+.wrapper{
+    margin-top: 10%;
+}
+.content{
+    display: flex;   
+    width:460px;
+    font-size: 40px;
+    color:white;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*Facebook*/
+
+.fb_icon{
+    background-color: #4267B2;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content:hover .fb_span{
+    background-color: white;
+    color:#4267B2;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s linear;
+}
+
+/*Instagram*/
+
+.insta_icon{
+    background-color:#E1306C;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content:hover .insta_span{
+    background-color: white;
+    color:#E1306C;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s linear;
+
+}
+
+/*Twitter*/
+
+
+.twit_icon{
+    background-color: #1DA1F2;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content:hover .twit_span{
+    background-color: white;
+    color:#1DA1F2;
+    flex-grow: 5;
+    transition: all 1s;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
